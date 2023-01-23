@@ -1,3 +1,14 @@
+
+@font-face {
+    font-family: "yekanHsy";
+    src: url("./../fonts/YekanBakh.woff");
+}
+@font-face {
+    font-family: "samim";
+    src: url("./../fonts/Samim.woff2");
+}
+
+
 * {
     padding: 0;
     margin: 0;    
@@ -5,11 +16,12 @@
 }
 
 body{
-    
-    color: #555;
-    font-family: arial;
-    background-color: #888;
+    color: rgb(2, 48, 48);
+    font-family: "yekanHsy";
+    background-color: rgb(210, 237, 244);
+    font-size: 16px;
 }
+
 .clear {
     clear: both;
 }
@@ -22,7 +34,7 @@ body{
 }
 
 header .profile .profile-image, header .profile .personal-info {
-    float: left;
+    float: right;
     height: 100px;
     
 }
@@ -37,7 +49,7 @@ header .profile .personal-info{
 }
 
 header .profile .personal-info h4{
-    color: #888;
+    color: rgb(0, 18, 13);
 }
 header .profile .personal-info ul{
     list-style: none;
@@ -46,7 +58,9 @@ header .profile .personal-info ul{
 
 header .motivation{
     padding: 30px;
-    font-size: 25px;
+    font-size: 20px;
+    margin-top: 30px;
+    text-align: center;
 }
 
 img{
@@ -62,14 +76,14 @@ img{
 }
 
 #services{
-    background: #999;
+    background: rgb(6, 94, 112);
     padding: 30px;
     color: white !important;
-    float: left;
+    float: right;
 }
 
 #services .service-item{
-    float: left;
+    float: right;
     width: 280px;
     margin: 10px 70px;
 }
@@ -77,23 +91,23 @@ img{
     text-align: center;
 }
 #services .service-description{
-    text-align: justify;
+    text-align: center;
 }
 
 div.flot{
-    float: left;
+    float: right;
     padding: 60px 70px 40px;
 }
 
 div.flot2{
-    float: left;
+    float: right;
     padding: 60px 70px 40px;
 }
 div.active{
    font-size:40px;
    padding:20px 0px 0px;
    color: #555;
-   font-family: 
+   text-align: center;
 }
 
 div.Inactive{
@@ -104,8 +118,8 @@ div.Inactive{
 }
 
 a.view{
-    font-size:25px;
-   margin:50px ;
+    font-size:15px;
+   margin:20px ;
    text-decoration: none;
 }
 
