@@ -1,0 +1,36 @@
+
+@font-face {
+    font-family: "yekanHsy";
+    src: url("./../fonts/YekanBakh.woff");
+}
+@font-face {
+    font-family: "samim";
+    src: url("./../fonts/Samim.woff2");
+}
+
+* {
+    padding: 10;
+    margin:10;    
+    box-sizing: border-box;
+}
+
+body{
+    color: rgb(45, 63, 72);
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(225, 230, 216);
+    font-size: 20px;
+}
+
+img{
+    width:200px;
+    height: 250px;
+    border-radius: 100%;;
+    border: 1px solid #aaa;
+    margin: 10;
+   }
+   p.div{
+    background-color: rgb(195, 221, 229);
+}
+  
+ 
+
